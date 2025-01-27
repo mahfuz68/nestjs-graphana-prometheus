@@ -46,4 +46,4 @@ services:
       - ./docker-utils:/docker-entrypoint-initdb.d
       - db_data:/data/postgres
     ports:
-      - 5439:5432    
+      - 5439:5432
